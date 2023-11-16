@@ -205,9 +205,6 @@ img {
   display: flex;
   margin: auto;
   gap: 24px;
-}
-
-.benefits-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
