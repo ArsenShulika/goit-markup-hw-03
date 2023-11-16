@@ -49,15 +49,17 @@ img {
   text-decoration: none;
 }
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
 }
 
 .page-nav {
   display: flex;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
-  padding-left: 0px;
+  align-items: center;
 }
 
 .link-logo-header {
@@ -79,6 +81,7 @@ img {
   display: flex;
   gap: 40px;
   margin-right: 332px;
+  padding: 24px 0;
 }
 
 .menu-link {
@@ -127,18 +130,19 @@ img {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
   gap: 48px;
 }
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
   color: #fff;
   font-family: 'Roboto';
+  max-width: 496px;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -153,6 +157,7 @@ img {
   background: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   align-items: center;
+  min-width: 169px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -282,6 +287,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 17.5px;
+  padding: 100px 0;
 }
 
 .text-portfolio-item {
@@ -307,6 +313,7 @@ img {
 }
 
 .link-logo-footer {
+  display: inline-block;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -316,6 +323,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 
 .accent-footer {
