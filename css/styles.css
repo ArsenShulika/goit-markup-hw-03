@@ -76,7 +76,6 @@ img {
 .page-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .link-logo-header {
@@ -108,6 +107,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -195,10 +195,10 @@ img {
 /* =========== ADVANTAGES ============= */
 
 .first-section-container {
-  display: block;
+  display: flex;
 }
 
-.benefits-list {
+.benefits-li {
   display: flex;
   margin: auto;
   gap: 24px;
@@ -320,6 +320,7 @@ img {
   padding-top: 32px;
   padding-bottom: 8px;
   text-align: left;
+  margin-bottom: 8px;
 }
 
 .portfolio-container {
@@ -366,7 +367,6 @@ img {
 }
 
 .link-logo-footer {
-  display: inline-block;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -381,8 +381,10 @@ img {
 
 .accent-footer {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .layout {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
