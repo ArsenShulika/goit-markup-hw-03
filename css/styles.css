@@ -205,7 +205,7 @@ img {
 }
 
 .benefits-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .section-title {
@@ -366,6 +366,8 @@ img {
 }
 
 .link-logo-footer {
+  display: inline-block;
+  width: 156px;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -380,7 +382,6 @@ img {
 
 .accent-footer {
   color: #f4f4fd;
-  display: inline-block;
 }
 
 .layout {
