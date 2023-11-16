@@ -355,7 +355,7 @@ img {
 
 /* ================ FOOTER =============== */
 .footer-container {
-  display: flex;
+  display: inline-block;
 }
 
 .text-footer {
@@ -369,7 +369,6 @@ img {
 }
 
 .link-logo-footer {
-  display: inline-block;
   width: 156px;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
