@@ -355,20 +355,11 @@ img {
 
 /* ================ FOOTER =============== */
 .footer-container {
-  display: inline-block;
-}
-
-.text-footer {
-  color: #f4f4fd;
-  font-family: 'Roboto';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  display: block;
 }
 
 .link-logo-footer {
+  display: inline-block;
   width: 156px;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -380,6 +371,16 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   margin-bottom: 16px;
+}
+
+.text-footer {
+  color: #f4f4fd;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .accent-footer {
