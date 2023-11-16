@@ -1,3 +1,5 @@
+/* ======== COMMON STYLES ======= */
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -31,6 +33,14 @@ img {
   display: block;
 }
 
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -40,14 +50,9 @@ img {
 .section {
   padding: 120px 0;
 }
+/* ======== COMMON STYLES ======= */
 
-.list {
-  list-style-type: none;
-}
-
-.link {
-  text-decoration: none;
-}
+/* ======== HEADER STYLES ======= */
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -60,6 +65,7 @@ img {
 .page-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .link-logo-header {
@@ -81,7 +87,6 @@ img {
   display: flex;
   gap: 40px;
   margin-right: 332px;
-  padding: 24px 0;
 }
 
 .menu-link {
@@ -125,6 +130,8 @@ img {
 .contact-link:focus {
   color: #404bbf;
 }
+
+/* =========== HERO ========= */
 
 .hero-container {
   display: flex;
@@ -174,6 +181,8 @@ img {
   background-color: #404bbf;
 }
 
+/* =========== ADVANTAGES ============= */
+
 .first-section-container {
   display: block;
 }
@@ -182,6 +191,10 @@ img {
   display: flex;
   margin: auto;
   gap: 24px;
+}
+
+.benefits-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .section-title {
@@ -205,6 +218,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 
 .text {
@@ -217,6 +231,8 @@ img {
   letter-spacing: 0.02em;
   width: 264px;
 }
+
+/* ============ CARDS ============= */
 
 .introduction {
   background: #f4f4fd;
@@ -233,6 +249,10 @@ img {
 
 .item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-container {
 }
 
 .title-item {
@@ -260,6 +280,8 @@ img {
   text-align: center;
 }
 
+/* ============= PORTFOLIO ================ */
+
 .third-section-container {
   display: block;
 }
@@ -267,7 +289,7 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
 }
 
 .title-portfolio-item {
@@ -281,6 +303,11 @@ img {
   padding-top: 32px;
   padding-bottom: 8px;
   text-align: left;
+}
+
+.section-footer {
+  display: block;
+  padding: 100px 0;
 }
 
 .footer-container {
@@ -328,6 +355,7 @@ img {
 
 .accent-footer {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .layout {
