@@ -79,6 +79,7 @@ img {
 .page-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .link-logo-header {
@@ -99,7 +100,6 @@ img {
 .menu {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 
 .menu-link {
@@ -148,10 +148,7 @@ img {
 /* =========== HERO ========= */
 
 .hero-container {
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  padding: 188px 0;
   gap: 48px;
 }
 
@@ -169,7 +166,9 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -338,7 +337,6 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
   text-align: left;
   margin-bottom: 8px;
 }
@@ -351,14 +349,10 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
   text-align: left;
 }
 
 /* ================ FOOTER =============== */
-.footer-container {
-  display: block;
-}
 
 .link-logo-footer {
   display: inline-block;
@@ -391,5 +385,4 @@ img {
 
 .layout {
   background-color: #2e2f42;
-  padding: 100px 0;
 }
