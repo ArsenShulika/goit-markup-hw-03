@@ -203,7 +203,7 @@ img {
 
 .benefits-list {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
   flex-wrap: wrap;
 }
 
