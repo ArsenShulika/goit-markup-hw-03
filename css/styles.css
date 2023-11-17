@@ -211,6 +211,10 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.benefits-list-container {
+  display: block;
+}
+
 .section-title {
   color: #2e2f42;
   font-family: 'Roboto';
