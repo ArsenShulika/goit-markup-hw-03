@@ -26,6 +26,7 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style-type: none;
 }
 
 img {
@@ -41,7 +42,7 @@ img {
 }
 
 .container {
-  width: 1158px;
+  max-width:: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -202,7 +203,6 @@ img {
 
 .benefits-li {
   display: flex;
-  margin: auto;
   gap: 24px;
   flex-wrap: wrap;
 }
