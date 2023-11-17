@@ -322,13 +322,6 @@ img {
   padding: 100px 0;
 }
 
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  gap: 17.5px;
-  padding: 100px 0;
-}
-
 .title-portfolio-item {
   color: #2e2f42;
   font-family: 'Roboto', sans-serif;
@@ -353,6 +346,11 @@ img {
 }
 
 /* ================ FOOTER =============== */
+
+.page-footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
 
 .link-logo-footer {
   display: inline-block;
@@ -381,8 +379,4 @@ img {
 
 .accent-footer {
   color: #f4f4fd;
-}
-
-.layout {
-  background-color: #2e2f42;
 }
