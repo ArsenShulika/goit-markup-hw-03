@@ -198,11 +198,12 @@ img {
 /* =========== ADVANTAGES ============= */
 
 .first-section-container {
-  display: flex;
+  display: block;
 }
 
-.benefits-li {
+.benefits-list {
   display: flex;
+
   margin: auto;
   gap: 24px;
   flex-wrap: wrap;
