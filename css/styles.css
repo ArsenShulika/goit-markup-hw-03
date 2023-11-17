@@ -208,7 +208,7 @@ img {
   flex-wrap: wrap;
 }
 
-.benefits-list-item .benefits-list {
+.benefits-list-item {
   width: calc((100% - 72px) / 4);
 }
 
