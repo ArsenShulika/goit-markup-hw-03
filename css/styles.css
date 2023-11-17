@@ -210,7 +210,7 @@ img {
 }
 
 .benefits-list-item .benefits-list {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .section-title {
