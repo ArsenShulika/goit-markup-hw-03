@@ -147,11 +147,6 @@ img {
 
 /* =========== HERO ========= */
 
-.hero-container {
-  text-align: center;
-  gap: 48px;
-}
-
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -166,6 +161,7 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -195,10 +191,6 @@ img {
 }
 
 /* =========== ADVANTAGES ============= */
-
-.first-section-container {
-  display: block;
-}
 
 .benefits-list {
   display: flex;
@@ -248,10 +240,6 @@ img {
 
 .introduction {
   background: #f4f4fd;
-}
-
-.second-section-container {
-  display: block;
 }
 
 .team-list {
