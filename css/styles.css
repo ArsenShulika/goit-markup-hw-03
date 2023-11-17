@@ -203,13 +203,12 @@ img {
 
 .benefits-list {
   display: flex;
-
   margin: auto;
   gap: 24px;
   flex-wrap: wrap;
 }
 
-.benefits-list-item .benefits-list .container {
+.benefits-list-item .benefits-list {
   width: calc((100% - 72px) / 4);
 }
 
