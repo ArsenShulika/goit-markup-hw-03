@@ -42,7 +42,7 @@ img {
 }
 
 .container {
-  max-width:: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -203,11 +203,12 @@ img {
 
 .benefits-li {
   display: flex;
+  margin: auto;
+  gap: 24px;
   flex-wrap: wrap;
 }
 
 .benefits-list-item {
-  gap: 24px;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
@@ -308,7 +309,7 @@ img {
   column-gap: 24px;
 }
 
-.portfolio-list-item .list {
+.portfolio-list-item {
   width: calc((100% - 48px) / 3);
 }
 
