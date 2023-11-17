@@ -309,7 +309,7 @@ img {
   column-gap: 24px;
 }
 
-.portfolio-list-item {
+.portfolio-list-item .list {
   width: calc((100% - 48px) / 3);
 }
 
