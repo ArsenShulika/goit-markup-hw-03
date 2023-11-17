@@ -203,16 +203,11 @@ img {
 
 .benefits-list {
   display: flex;
-  column-gap: 24px;
-  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .benefits-list-item {
-  width: calc((100% - 72px) / 4);
-}
-
-.benefits-list-container {
-  display: block;
+  width: calc((100% - 72) / 4);
 }
 
 .section-title {
