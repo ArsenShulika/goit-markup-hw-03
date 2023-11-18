@@ -74,6 +74,7 @@ img {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .page-nav {
@@ -103,6 +104,7 @@ img {
 }
 
 .menu-link {
+  display: block;
   color: #2e2f42;
   font-family: 'Roboto' sans-serif;
   font-size: 16px;
@@ -125,8 +127,6 @@ img {
 
 .cotnacts {
   display: flex;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
   gap: 40px;
 }
 
@@ -283,10 +283,6 @@ img {
 
 /* ============= PORTFOLIO ================ */
 
-.third-section-container {
-  display: block;
-}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -302,7 +298,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .section-footer {
